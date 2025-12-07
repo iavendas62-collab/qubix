@@ -265,8 +265,8 @@ export default function SimpleProviderRegister() {
             </p>
           </CardHeader>
 
-        <CardContent>
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <CardContent>
+            <form onSubmit={handleSubmit} className="space-y-6">
             {/* GPU Model */}
             <div>
               <label className="flex items-center gap-2 text-sm font-medium text-slate-300 mb-2">
@@ -446,12 +446,13 @@ export default function SimpleProviderRegister() {
           {/* Info Box */}
           <div className="mt-6 p-4 bg-cyan-500/10 border border-cyan-500/30 rounded-lg">
             <p className="text-sm text-cyan-300">
-              💡 <strong>Note:</strong> This is a simplified registration for MVP testing. 
+              💡 <strong>Note:</strong> This is a simplified registration for MVP testing.
               Your GPU will be listed in the marketplace immediately after registration.
             </p>
           </div>
         </CardContent>
       </Card>
+      </div>
     </div>
   );
 }
