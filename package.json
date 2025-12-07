@@ -1,0 +1,10 @@
+{
+  "name": "qubix-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd qibux-frontend && npm install && cd ../qibux-backend && npm install",
+    "build": "cd qibux-frontend && npm run build",
+    "dev": "cd qibux-frontend && npm run dev"
+  }
+}

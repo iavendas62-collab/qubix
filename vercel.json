@@ -1,0 +1,10 @@
+{
+  "framework": null,
+  "buildCommand": "cd qibux-frontend && npm run build",
+  "outputDirectory": "qibux-frontend/dist",
+  "installCommand": "npm install && cd qibux-frontend && npm install",
+  "devCommand": "cd qibux-frontend && npm run dev",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
