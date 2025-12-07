@@ -1,0 +1,12 @@
+{
+  "providerId": "mock-1764882423679",
+  "workerId": "real-gpu-20251204180703",
+  "qubicAddress": "HMGCVKRBGAQADJRRRRKDZXKLOORIJFFIVKSQAKXOTPSXRHNKHHXYUWKBQSGS",
+  "gpu": {
+    "model": "NVIDIA GeForce MX150",
+    "vram": 4.0,
+    "vendor": "NVIDIA",
+    "type": "native"
+  },
+  "registeredAt": "2025-12-04T18:07:03.681617"
+}

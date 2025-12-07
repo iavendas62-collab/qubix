@@ -19,11 +19,18 @@ Agora temos um sistema automatizado que sincroniza mudanças entre:
 
 ```
 qubic-trading-sdk/
+├── .git/                                           # Repositório Git principal
 ├── frontend/src/pages/SimpleProviderRegister.tsx    # Arquivo principal
-├── qubix-git/qibux-frontend/src/pages/SimpleProviderRegister.tsx  # Clone
-├── sync-to-clone.bat                                 # Script: Principal → Clone
-├── sync-from-clone.bat                              # Script: Clone → Principal
-└── .git/                                           # Repositório Git principal
+├── qubix-git/                                      # Clone Git completo
+│   ├── .git/                                       # Repositório Git clone
+│   ├── package.json                                # Configuração raiz do Vercel
+│   ├── vercel.json                                 # Configuração do Vercel (raiz)
+│   └── qibux-frontend/                             # Aplicação frontend
+│       ├── package.json                            # Dependências frontend
+│       ├── vercel.json                             # Configuração do Vercel (app)
+│       └── src/pages/SimpleProviderRegister.tsx   # Arquivo clone
+├── sync-to-clone.bat                               # Script: Principal → Clone
+└── sync-from-clone.bat                             # Script: Clone → Principal
 ```
 
 ## 🚀 **Como Usar**

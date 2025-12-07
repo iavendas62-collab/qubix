@@ -1,0 +1,24 @@
+========================================
+QUBIX - TUDO RODANDO!
+========================================
+
+ACESSE AGORA:
+
+http://localhost:3001/register
+
+========================================
+
+PORTAS:
+- Backend: http://127.0.0.1:4000
+- Frontend: http://localhost:3001
+
+========================================
+
+TESTE:
+1. Email: test@example.com
+2. Senha: TestPass123
+3. Nome: Test User
+
+Copie a seed phrase!
+
+========================================
